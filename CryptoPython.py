@@ -69,7 +69,7 @@ if cryptoSystem == 1: #Caeser Cipher
                 foundKey = (Alphabet.find(char) - index) % len(Alphabet)
                 crackAttempt+= Alphabet[index]
          
-            print("Key = ",foundKey," = ",crackAttempt) #Come back here before sharing this project to fix the key finding accuracy
+            print("Key = ",foundKey," = ",crackAttempt) 
             
     if input(k+"Crack via Frequency Analysis?\n").lower() not in ['yes', 'y', 'ye']:
         print(k+"Exiting\n")
